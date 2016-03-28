@@ -14,7 +14,7 @@ public class Runner {
 		/**
 		 * Look	at Man.toString();
 		 */
-		Man man = new Man("Taylan","Male","Single",1.84,83);
+		ManParent man = new ManParent("Taylan","Male","Single",1.84,83);
 		
 		System.out.println(man);
 	}

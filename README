@@ -1,1 +1,26 @@
 Oracle Certified Professional Java SE 8 preparation examples.
+
+Pre-Notes: 
+
+-This project is in more documentary taste rather then to being hard code.
+
+-You can keep track this project and just go to exam :) I aimed this project to be enough
+to teach you what is going on OCP 8 exam and you can easily prepare for exam by this project.
+ 
+-I am trying to keep project simple in every manner, to read,understand,integrate. In this manner,
+I did not create this project by maven package tool which is awesome if you do not know that yet.
+ 
+-I am going to keep edit this project as long as I am preparing for exam.
+However,If you are thinking I am doing wrong at somewhere or you cannot understand etc. just let me know 
+so we can learn together :) 
+
+-- My main notes going to be at codes, I am planning use this field for special notes or 
+something I am thinking it is important for mention or you need to know about chapters or anything :) 
+
+Happy Coding :)
+
+
+Chapter 1: Advanced Class Design
+
+is coming...
+

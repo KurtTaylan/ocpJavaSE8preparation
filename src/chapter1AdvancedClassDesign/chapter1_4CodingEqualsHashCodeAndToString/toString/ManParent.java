@@ -8,14 +8,14 @@ package chapter1AdvancedClassDesign.chapter1_4CodingEqualsHashCodeAndToString.to
  * Date: Mar 27, 2016 11:01:24 PM
  * 
  */
-public class Man {
-	private double height;
-	private int weight;
-	private String name;
-	private String sex;
-	private String martialStatus;
+public class ManParent {
+	protected double height;
+	protected int weight;
+	protected String name;
+	protected String sex;
+	protected String martialStatus;
 
-	public Man(String name, String sex, String martialStatus, double height, int weight) {
+	public ManParent(String name, String sex, String martialStatus, double height, int weight) {
 		this.name = name;
 		this.sex = sex;
 		this.martialStatus = martialStatus;
