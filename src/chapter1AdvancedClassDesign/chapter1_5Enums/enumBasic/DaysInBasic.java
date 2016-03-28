@@ -8,7 +8,7 @@ package chapter1AdvancedClassDesign.chapter1_5Enums.enumBasic;
  * Date: Mar 28, 2016 1:55:35 PM
  *  
  */
-public enum Days {
+public enum DaysInBasic {
 
 	/**
 	 * An enum is a type of class that mainly contains static final members-constants.

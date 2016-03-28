@@ -25,7 +25,7 @@ public class App {
 		 * You cannot initiate enum class 
 		 * because it is 
 		 */
-		Days monday = Days.MONDAY;
+		DaysInBasic monday = DaysInBasic.MONDAY;
 		
 		/**
 		 * Enum class type has method name();
@@ -34,15 +34,15 @@ public class App {
 		 * Than prints out constant name.
 		 */
 		System.out.println(monday);
-		System.out.println(Days.MONDAY);
-		System.out.println(monday == Days.MONDAY);
+		System.out.println(DaysInBasic.MONDAY);
+		System.out.println(monday == DaysInBasic.MONDAY);
 		
 		
 		/**
 		 * An enum provides a method to get an array of all of the values.
 		 *  You can use this like any normal array, including in a loop:
 		 */
-		for (Days day : Days.values()) {
+		for (DaysInBasic day : DaysInBasic.values()) {
 			System.out.println(day.name() + " " + day.ordinal());
 		}
 		
@@ -66,7 +66,7 @@ public class App {
 		 * It would not compile ! 
 		 */
 		
-		Days someDay = Days.SUNDAY;
+		DaysInBasic someDay = DaysInBasic.SUNDAY;
 		switch (someDay) {
 		case MONDAY:
 			System.out.println("Today is monday");

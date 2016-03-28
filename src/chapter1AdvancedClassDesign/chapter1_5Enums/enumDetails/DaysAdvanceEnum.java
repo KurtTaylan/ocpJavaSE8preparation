@@ -8,7 +8,7 @@ package chapter1AdvancedClassDesign.chapter1_5Enums.enumDetails;
  * Date: Mar 28, 2016 4:47:03 PM
  *  
  */
-public enum DaysAdvance {
+public enum DaysAdvanceEnum {
 	
 	/**
 	 * When you open paranthesis;
@@ -37,7 +37,7 @@ public enum DaysAdvance {
 	 * 
 	 * @param openHourse:For which day shop is open.
 	 */
-	private DaysAdvance(String openHourse) {
+	private DaysAdvanceEnum(String openHourse) {
 		this.openHourse = openHourse;
 	}
 	

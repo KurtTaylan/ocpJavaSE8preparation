@@ -9,7 +9,7 @@ package chapter1AdvancedClassDesign.chapter1_4CodingEqualsHashCodeAndToString.ha
  * Date: Mar 28, 2016 1:15:01 PM
  *  
  */
-public class Runner {
+public class App{
 
 	public static void main(String[] args) {
 

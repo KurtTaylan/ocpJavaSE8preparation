@@ -8,7 +8,7 @@ package chapter1AdvancedClassDesign.chapter1_4CodingEqualsHashCodeAndToString.to
  * Date: Mar 27, 2016 11:09:29 PM
  *  
  */
-public class Runner {
+public class App {
 
 	public static void main(String[] args) {
 		/**
