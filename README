@@ -17,10 +17,18 @@ so we can learn together :)
 -- My main notes going to be at codes, I am planning use this field for special notes or 
 something I am thinking it is important for mention or you need to know about chapters or anything :) 
 
+-- Look at app.java first of every part to start understand.
+
 Happy Coding :)
 
 
 Chapter 1: Advanced Class Design
 
-is coming...
+-There is instanceof usage in this chapter
+-This chapter focused on 3 fundamental methods of java.lang.Object ; hashcode() - equals() , toString()
+-Virtual Method Invocation
+-Enums
+-Nested Classes - This is most important part I guess.
+
+
 
