@@ -4,9 +4,9 @@
  *  inherit human being abstract methods too because I extended 
  *  power interface from HumanBeing.
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.impl;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl;
 
-import chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.Power;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.Power;
 
 /**
  * @author tkurt

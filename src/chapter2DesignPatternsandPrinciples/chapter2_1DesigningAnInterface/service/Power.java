@@ -1,7 +1,7 @@
 /**
  * WithIn this contract we have some power of human being 'Behaviours'
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service;
 
 /**
  * @author tkurt

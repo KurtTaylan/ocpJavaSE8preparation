@@ -1,10 +1,14 @@
 /**
  * Here we are going to see how interact with interfaces in advanced level.
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface;
 
-import chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.*;
-import chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.impl.*;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.HumanBeing;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.Power;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.SuperPower;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl.DummyHuman;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl.DummyPowerfulHuman;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl.DummySuperPowerfulHuman;
 
 /**
  * @author tkurt

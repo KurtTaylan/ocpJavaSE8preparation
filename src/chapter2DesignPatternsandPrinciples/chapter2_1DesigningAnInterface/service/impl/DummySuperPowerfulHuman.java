@@ -3,9 +3,9 @@
  * of all three interfaces because SuperPower interface extends Power than 
  * indirectly extends HumanBeing.
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.impl;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl;
 
-import chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.SuperPower;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.SuperPower;
 
 /**
  * @author tkurt

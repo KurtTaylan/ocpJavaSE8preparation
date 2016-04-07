@@ -31,4 +31,16 @@ Chapter 1: Advanced Class Design
 -Nested Classes - This is most important part I guess.
 
 
+Chapter 2: Design Patterns and Principles
+
+-As whole chapter build for you to understand why Design Patterns are exist and many times it is 
+big advantage to use APPROPRIATE pattern onto our cases.
+
+-To understand those patterns, there are;
+ +Interface Designing
+ +Advanced Polymorphism
+ +Also understand design principles part for sub knowledges you are applying while you are designing patterns.
+-Plus There is introduction part to programming functional.
+
+-Design Patterns (Main) part is coming soon. :) 
 

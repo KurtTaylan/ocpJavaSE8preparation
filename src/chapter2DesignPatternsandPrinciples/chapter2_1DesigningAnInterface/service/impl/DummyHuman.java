@@ -2,9 +2,9 @@
  * This 'Mock' Object is just for to test your interfaces.
  * Within this one we gonna test our 'Human' interface
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.impl;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.impl;
 
-import chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service.HumanBeing;
+import chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service.HumanBeing;
 
 /**
  * @author tkurt

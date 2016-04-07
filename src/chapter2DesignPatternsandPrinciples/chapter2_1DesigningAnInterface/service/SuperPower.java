@@ -4,7 +4,7 @@
  *  While you are having super power you are having power.
  *  Moreover indirectly human being abilities too.
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service;
 
 /**
  * @author tkurt

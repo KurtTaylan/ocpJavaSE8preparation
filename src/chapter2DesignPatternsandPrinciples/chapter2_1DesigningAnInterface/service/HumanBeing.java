@@ -4,7 +4,7 @@
  *  This is contract if we want to be human :) 
  *  Of course we need to have some 'Behaviours' to be human.
  */
-package chapter2DesignPatternsandPrinciples.chapter2_1DesingingAnInterface.service;
+package chapter2DesignPatternsandPrinciples.chapter2_1DesigningAnInterface.service;
 
 /**
  * @author tkurt
