@@ -58,7 +58,7 @@ package chapter2DesignPatternsandPrinciples.chapter2_4UnderstandingDesignPrincip
 public class App {
 
 	public static void main(String[] args) {
-
+		// Look HayStorage as first :)
 	}
 
 }

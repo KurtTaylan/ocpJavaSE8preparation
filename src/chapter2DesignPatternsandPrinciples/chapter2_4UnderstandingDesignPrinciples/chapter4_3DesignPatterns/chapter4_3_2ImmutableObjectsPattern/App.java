@@ -17,7 +17,7 @@
  * 
  * Applying an Immutable Strategy
  * 
- * 1.Use a constructor to set all properties of the object.
+ * 1. Use a constructor to set all properties of the object.
  * 2. Mark all of the instance variables private and final .
  * 3. Don’t define any setter methods.
  * 4. Don’t allow referenced mutable objects to be modified or accessed directly.
@@ -25,6 +25,10 @@
  * 
  */
 package chapter2DesignPatternsandPrinciples.chapter2_4UnderstandingDesignPrinciples.chapter4_3DesignPatterns.chapter4_3_2ImmutableObjectsPattern;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author tkurt
@@ -34,7 +38,26 @@ package chapter2DesignPatternsandPrinciples.chapter2_4UnderstandingDesignPrincip
 public class App {
 
 	public static void main(String[] args) {
+		// Look at Animal class as first :)
 
+		
+		/**
+		 * “Modifying” an Immutable Object
+		 */
+		// Create a new Animal instance
+		Animal lion = new Animal("lion", 5, Arrays.asList("meat", "more meat"));
+
+		// Create a new Animal instance using data from the first instance
+		List<String> favoriteFoods = new ArrayList<String>();
+		for (int i = 0; i < lion.getFavoriteFoodsCount(); i++) {
+			favoriteFoods.add(lion.getFavoriteFood(i));
+		}
+		/**
+		 * This is like a code with 'immutable' String object;
+		 * - You cannot modify current object but you can create
+		 * NEW identical object by adding changes you want to do.
+		 */
+		Animal updatedLion = new Animal(lion.getSpecies(), lion.getAge() + 1, favoriteFoods);
 	}
 
 }

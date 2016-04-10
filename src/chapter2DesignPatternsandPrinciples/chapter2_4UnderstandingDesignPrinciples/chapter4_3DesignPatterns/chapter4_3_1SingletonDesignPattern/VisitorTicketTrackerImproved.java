@@ -1,5 +1,5 @@
 /**
- * 
+ * This is final version of singleton object creation.
  */
 package chapter2DesignPatternsandPrinciples.chapter2_4UnderstandingDesignPrinciples.chapter4_3DesignPatterns.chapter4_3_1SingletonDesignPattern;
 
@@ -22,7 +22,7 @@ public class VisitorTicketTrackerImproved {
 	 * 
 	 * With this we improved our performance because not every time 
 	 * check the 'synchronized' case .
-	 * @return
+	 * 
 	 */
 	public static VisitorTicketTrackerImproved getInstance() {
 		
@@ -33,6 +33,10 @@ public class VisitorTicketTrackerImproved {
 			 */
 			synchronized (VisitorTicketTrackerImproved.class) {
 				if (instance == null) {
+					/**
+					 * While we are using getInstance() ,
+					 * at the same time we are fixing createSingleton() method in patterns Structure!
+					 */
 					instance = new VisitorTicketTrackerImproved();
 				}
 			}
