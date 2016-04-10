@@ -44,4 +44,19 @@ public class VisitorTicketTrackerImproved {
 		
 		return instance;
 	}
+	
+
+	/* This is refactored way.
+	
+	private synchronized static void createInstance(){
+		if(instance == null) instance = new VisitorTicketTrackerImproved();
+	} 
+	
+	public static VisitorTicketTrackerImproved getInstance(){
+		if(instance == null) createInstance();
+		return instance;
+	}
+	*/
+	
+	
 }
